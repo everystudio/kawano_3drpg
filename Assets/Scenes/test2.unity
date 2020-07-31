@@ -792,9 +792,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef851c4ada7f0d84aa45ce73ba589342, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleport_name: teleport01
-  target_scene: test2
-  target_teleport: teleport02
+  teleport_name: teleport02
+  target_scene: field
+  target_teleport: teleport01
   entry: {fileID: 1462597754}
 --- !u!65 &1874437053
 BoxCollider:

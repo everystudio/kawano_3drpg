@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControl : MonoBehaviour
+public class PlayerControl : rpgkit.StaticInstance<PlayerControl>
 {
+    public string m_strTargetTeleporterName;
+
     public float move_speed = 3.0f;
     void Start()
     {
